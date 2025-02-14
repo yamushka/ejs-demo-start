@@ -7,7 +7,7 @@
   "scripts": {
     "start:dev": "nodemon ./src/app.js --config nodemon.json"
   },
-  "keywords": [],
+  "keywords": ["ejs", "express", "nodejs", "templating"],
   "author": "Frederick Roegiers",
   "license": "ISC",
   "dependencies": {
