@@ -5,13 +5,17 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon ./src/app.js --config nodemon.json"
+    "start:dev": "nodemon --env-file=.env ./src/app.js --config nodemon.json "
   },
-  "keywords": ["ejs", "express", "nodejs", "templating"],
+  "keywords": [
+    "ejs",
+    "express",
+    "nodejs",
+    "templating"
+  ],
   "author": "Frederick Roegiers",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
   }

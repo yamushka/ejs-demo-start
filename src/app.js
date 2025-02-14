@@ -1,8 +1,6 @@
 // import statements
 import express from "express";
 import path from "path";
-import dotenv from "dotenv";
-dotenv.config();
 
 // create an instance of express
 const app = express();
